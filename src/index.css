@@ -11,3 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.collection-item span{
+  text-transform: uppercase;
+}
+.collection-item span:hover {
+    cursor: pointer;
+    color: rgb(25, 88, 204);
+    font-weight: bold;
+}
